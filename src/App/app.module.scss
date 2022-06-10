@@ -1,0 +1,26 @@
+.app {
+  max-width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__wraper {
+  width: 90%;
+  height: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__wraper_header {
+  border: 2px solid green;
+}
+
+.app__wraper_main {
+  border: 2px solid rgb(25, 0, 255);
+}
